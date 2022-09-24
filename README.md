@@ -23,7 +23,9 @@ Design patterns differ by their complexity, level of detail, and scale of applic
   
 # Behavioral Design Patterns:
 ##Strategy
-Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+The strategy pattern allows us to change the behavior of an algorithm at runtime.
+Strategy: is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
 Strategy pattern is also known as Policy Pattern. We define multiple algorithms and let client application pass the algorithm to be used as a parameter.
 One of the best examples of a strategy pattern is the Collections.sort() method that takes Comparator parameter. Based on the different implementations of Comparator interfaces, the Objects are getting sorted in different ways.
 ￼
